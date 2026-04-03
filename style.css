@@ -1,0 +1,24 @@
+div{
+    height: 500px;
+    width:500px;
+    border-radius: 50%;
+    border:20px solid white;
+    animation-name: Anime;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    border:5px solid yellow;
+    border-top:5px solid black;
+    
+    
+   
+    
+}
+@keyframes Anime{
+    0%{
+        transform:rotate(0deg);
+    }
+   
+    100%{
+        transform:rotate(360deg);
+    }
+}
